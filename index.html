@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tabelas</h1>
+
+    <table>
+
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Idade</th>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>maria@gmail.com</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>joao@gmail.com</td>
+            <td>25</td>
+        </tr>
+    </table>
+
+
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th colspan="2">Detalhes</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Maria</td>
+            <td>maria@gmail.com</td>
+            <td>Idade: 30</td>
+            <td>Profissão: Engenheira</td>
+        </tr>
+        <tr>
+            <td>joao@gmail.com</td>
+            <td>Idade: 25</td>
+            <td>Profissão: Médico</td>
+        </tr>
+    </table>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Maria</td>
+                <td>maria@gmail.com</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>joao@gmail.com</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+
+</html>
